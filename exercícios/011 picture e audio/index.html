@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+       <h1>imagem dinamica</h1>
+        <p>tente abrir esse site em varios dispositivos diferentes ou aumenta e diminue o tamanho do navegador</p>
+
+        <p>tag picture</p>
+        <p>usando a tag <abbr title="source">source media type</abbr> dentro de picture e colocando pra imagem maxima ser até o tamanho TAL ela aumenta e diminui a imagem automatico</p>
+
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="">
+        </picture>
+
+        <h1>reproduzindo audio em HTML 5</h1>
+        <p>usando a tag audio e colocando autoplay e controls</p>
+        <p>se eu colocar audio preload em cima dos audio da pra escolher se vai baixar ou não</p>
+       
+        <audio src="midia/Boom Bap Flick - Quincas Moreira.mp3" controls autoplay></audio>
+
+
+
+</body>
+</html>

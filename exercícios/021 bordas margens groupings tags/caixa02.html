@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupíng tags</title>
+</head>
+<style>
+    body{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: gray;
+        margin: 0%;
+    }
+    header{
+        background-color: aliceblue;
+        padding: 10px;
+        margin: 10px;
+    }
+    nav{
+        background-color: rgb(100, 95, 95);
+        padding: 10px;
+        margin: 10px;
+        box-shadow: 2px 2px 4px 1px black;
+    }
+    nav > a{
+        text-decoration: none;
+        color: aliceblue;
+        font-weight:bold ;
+        margin-right: 30px;
+    }
+    nav > a:hover {
+        text-decoration: underline;
+    }
+    main{
+        background-color: white;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 2px 2px 4px 1px black;
+    }
+    article{
+        background-color: rgb(54, 114, 167);
+        padding: 5px;
+    }
+    article > aside{
+       background-color: aquamarine; 
+    }
+    footer{
+        background-color:black ;
+        color: aliceblue;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+    }
+    footer > p {
+        margin: 0px;
+    }
+    div#bola{
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50px;
+    }
+</style>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="a">link</a>
+            <a href="a">link</a>
+            <a href="a">link</a>
+            <a href="a">link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticia sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat inventore tempore asperiores harum est repellendus natus, sed obcaecati dolore rerum ex repellat eos. Facilis est explicabo tenetur et, sint eveniet?</p>
+                <aside>
+                    <p>artigo escrito por mim</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo Gui</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

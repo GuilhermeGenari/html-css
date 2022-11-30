@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{ 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image:linear-gradient(to right, #DBF227,#D6D58E ) ;
+}
+main{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 30px 30px 30px #0429407e;
+    width: 900px; 
+    padding: 10px;
+    margin:auto;
+}
+
+h1{
+color: #005C53;
+text-align: center;
+box-shadow: 1px 1px 2px #003832;
+}
+
+h2{
+color: #031a29;
+}
+
+p{
+    text-align: justify;
+}
+
+
+width é aa largura da parada 
+padding é pra dar uma folguinha entre as letras e as bordas
+margin é pra centralizar automatico
+border radius é pra arredondar as kinas
+box shadoww é as sombras 
+textt align é pra ajustar os texto no centtro ou sei la oq
